@@ -11,7 +11,7 @@ import * as action from'./actions/';
 let store = createStore(reudcers);
 
 store.dispatch(action.increment());
-console.log( store.getState())
+//console.log( store.getState())
 store.subscribe(()=>{console.log(store.getState())});
 
 
