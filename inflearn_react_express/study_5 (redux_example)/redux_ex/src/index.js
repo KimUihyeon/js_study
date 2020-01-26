@@ -23,7 +23,4 @@ ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementB
 serviceWorker.unregister();
 
 
-console.log('git Test');
-
-console.log('git Test');
-console.log('git Test');
+console.log('git Test');console.log('git Test');
